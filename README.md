@@ -3,15 +3,15 @@
 The task for this project is to get data on some economic indicators i.e inflation rate, money stock and appreciated value of $1 since 1930. to obtain the data we will make API calls, read HTML on the web as well as read an excel file and then build dataframes using Pandas capabilities. 
 
 ### LIBRARIES REQUIRED
-•	import requests
-•	from config import api_key
-•	import pandas as pd
-•	import datetime as dt
-•	from datetime import datetime as ds
-•	import json
-•	from pprint import pprint
-•	import sqlalchemy
-•	from sqlalchemy import create_engine
+•  import requests
+•  from config import api_key
+•  import pandas as pd
+•  import datetime as dt
+•  from datetime import datetime as ds
+•  import json
+•  from pprint import pprint
+•  import sqlalchemy
+•  from sqlalchemy import create_engine
 
 
 ### DATA EXTRACTION AND TRANSFORMATION
