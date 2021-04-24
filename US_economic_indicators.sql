@@ -1,11 +1,15 @@
---DROP TABLE US_econ;
+select * from public.cpi_inflation;
 
-CREATE TABLE US_econ(
-		year_ Int,
-		dollar_value Varchar(10),
-		inflation_rate Varchar(10),
-		gdp_rate Varchar(10),
-		m3_rate Varchar(10)		
-);
+select * from public.gdp;
 
-SELECT * FROM US_econ;
+select * from public.m3;
+
+-- join the tables on year
+SELECT cpi_inflation.date, dollar_value, inflation_rate, m3_rate
+FROM cpi_inflation
+INNER JOIN gdp
+ON cpi_inflation.date = gdp.date
+INNER JOIN m3
+ON cpi_inflation.date = m3.date;
+
+
