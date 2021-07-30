@@ -1,4 +1,4 @@
-# ETL_Project - U.S. Economic Indicators
+# U.S. Economic Analysis
 
 The task for this project is to get data on some economic indicators i.e inflation rate, money stock and appreciated value of $1 since 1930. to obtain the data we will make API calls, read HTML on the web as well as read an excel file and then build dataframes using Pandas capabilities. 
 
