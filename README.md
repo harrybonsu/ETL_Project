@@ -28,7 +28,7 @@ The task for this project is to get data on some economic indicators i.e inflati
     
 •  The Money Stock (m3) data is stored as an excel file which is read into a Pandas dataframe and transformed in required format to be able to load into Postgres.
 
-![READ XLS](images/read_xls.png)
+![READ XLS](images/read_xls_df.png)
 
 ### LOADING TABLES INTO SQL DATABASE
 •  Create connection to your local postgres database by inserting your password into the connection string.
