@@ -17,7 +17,7 @@ The task for this project is to get data on some economic indicators i.e inflati
 ### DATA EXTRACTION AND TRANSFORMATION
 •  Data on Inflation (from 1930) is obtained by reading an HTML through a URL on the CPI Inflation Calculator website. Using a ‘pd.read_html’ returns all tables available on the website and then select the required table by parsing the tables position and then build a dataframe. Rename the columns to enable reading in postgres. 
 
-![HTML](ETL_Project/images/read_html.jpg)
+![HTML] (ETL_Project/images/read_html.jpg)
 
 •  Data on GDP is obtained by making an API call to St. Louis Fed. Economic database ‘FRED’.
     o  You will have to create an account on the website https://fred.stlouisfed.org/ to be able to request for an API key. 
