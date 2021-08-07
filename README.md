@@ -23,6 +23,8 @@ The task for this project is to get data on some economic indicators i.e inflati
     o  You will have to create an account on the website https://fred.stlouisfed.org/ to be able to request for an API key. 
     o  The API key must then be added to the config.py file and to be able to parse to the url built in jupyter notebook. (read the   documentation on how to get the data using API on the website).  
     o  The results should be added to a pandas dataframe and transformed into the required format and delete duplicated columns.
+
+![API_URL](images/build_api_url.png) ![API_RESPONSE](images/api_response.png)
     
 •  The Money Stock (m3) data is stored as an excel file which is read into a Pandas dataframe and transformed in required format to be able to load into Postgres.
 
