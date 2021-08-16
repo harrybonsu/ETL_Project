@@ -1,0 +1,6 @@
+select gdp.date, cpi_inflation.dollar_value, cpi_inflation.inflation_rate, gdp.gdp_rate
+from public.gdp
+inner join cpi_inflation on
+gdp.date = cpi_inflation.date
+where inflation_rate >0
+;
